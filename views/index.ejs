@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    <%= title %>
+  </title>
+  <!-- <link rel='stylesheet' href='/stylesheets/style.css'/> -->
+
+  <!-- NAV CSS -->
+  <!-- <link rel="stylesheet" href='/stylesheets/nav_1.css'> -->
+  <!-- <link rel="stylesheet" href='/stylesheets/nav_2.css'> -->
+  <!-- <link rel="stylesheet" href='/stylesheets/nav_3.css'> -->
+
+  <!-- SIDE MENU CSS -->
+  <!-- <link rel="stylesheet" href='/stylesheets/side_menu.css'> -->
+
+  <!-- SIDE MENU 2 CSS -->
+  <link rel="stylesheet" href='/stylesheets/side_menu2.css'>
+
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <!-- ICON -->
+  <link rel="icon" href='/images/fgo_icon.ico'>
+  <meta charset="utf-8">
+
+</head>
+
+<body>
+
+  <!-- <input type="checkbox" id="check"> -->
+  <!-- Header area -->
+  <!-- <header>
+    <label for="check">
+      <i class="fas fa-bars" id="sidebar_btn"></i>
+    </label>
+    <div class="left_area">
+      <h3>Coding <span>Snow</span></h3>
+    </div>
+    <div class="right_area">
+      <a href="#" class="logout_btn">Logout</a>
+    </div>
+  </header> -->
+  <!-- Header area end -->
+
+  <!-- Sidebar start -->
+
+  <!-- <div class="sidebar">
+    <center>
+      <img src='/images/jeanne.jpg' class="profile_image" alt="">
+      <h4>Jeanne</h4>
+    </center>
+    <a href="/"><i class="fas fa-desktop"></i><span>Fate Zero</span></a>
+    <a href="/fsn"><i class="fas fa-cogs"></i><span>Fate Stay Night</span></a>
+    <a href="/fsnubw"><i class="fas fa-table"></i><span>Fate Stay Night UB</span></a>
+    <a href="/fsnhf"><i class="fas fa-th"></i><span>Fate Stay Night HF</span></a>
+    <a href="/fa"><i class="fas fa-info-circle"></i><span>Fate Apocrypha</span></a>
+    <a href="/fgo"><i class="fas fa-sliders-h"></i><span>Fate Grand Order</span></a>
+
+  </div> -->
+
+  <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+  <!-- Segundo Side Menu Bar -->
+  <input type="checkbox" id="checkbox">
+  <header class="header">
+    <h2 class="u-name">SIDE <b>BAR</b>
+      <label for="checkbox"><i id="navbtn" class="fa fa-bars" aria-hidden="true"></i></label>
+    </h2>
+    <i class="fas fa-user"></i>
+  </header>
+  <div class="body">
+    <nav class="side-bar">
+      <div class="user-p">
+        <img src='images/jeanne.jpg' alt="">
+        <h4>Jeanne</h4>
+      </div>
+      <ul>
+        <li><a href="/"><i class="fa fa-desktop" aria-hidden="true"></i><span>Alter</span></a></li>
+        <li><a href="/fsn"><i class="fa fa-envelope" aria-hidden="true"></i><span>Fate Stay Night</span></a></li>
+        <li><a href="/fsnubw"><i class="fa fa-comment" aria-hidden="true"></i><span>Fate Stay Night UBW</span></a></li>
+        <li><a href="/fsnhf"><i class="fa fa-info-circle" aria-hidden="true"></i><span>Fate Stay Night HF</span></a></li>
+        <li><a href="/fa"><i class="fa fa-cog" aria-hidden="true"></i><span>Fate Apocrypha</span></a></li>
+        <li><a href="/fgo"><i class="fa fa-power-off" aria-hidden="true"></i><span>Fate Grand Order</span></a></li>
+      </ul>
+    </nav>
+    <!-- <section class="section-1">
+      <h1>WELCOME</h1>
+      <p>#CodingWihtElias</p>
+    </section> -->
+    <%- include(fragmento) %>
+  </div>
+  
+
+</body>
+
+</html>
